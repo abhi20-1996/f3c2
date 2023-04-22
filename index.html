@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>New Employees</h1>
+    <form autocomplete="off" id="employeesForm">
+   <div class="insid">  <lable for="eName">Enter Name<br>
+      <input type="text" id="eName" name="eName"></lable>
+      <lable for="profession">Enter Profession <br><input type="text" id="profession" name="profession"></lable>
+      
+       <lable for="age">Enter Age <br>
+      <input type="number" id="age" name="age"></lable></div>
+
+         <button type="submit" id="btn">Add User</button>
+      
+    </form>
+   <p id="error">Error : Please Make sure All the fields are filled before adding in an employee !</p>
+   <p id="success">Success : Employee Added!</p>
+    <div><p style="font-size:18px">Added Employees</p></div>
+    <p id="default">You have 0 Employees.</p>
+    <div id="employees">
+     
+    
+
+  </div>
+
+
+  
+  <script src="./index.js"></script>
+</body>
+</html>
