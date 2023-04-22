@@ -51,10 +51,9 @@
   #error{
 display: none;
   }
-  #succes{
+  #success{
     display: none;
-    /* color: #43FF78;
-    font-size: 20px; */
+  
   }
 
   #employees{
