@@ -45,5 +45,7 @@ function deleteUser(id){
   count++;
   if(count==idx){
     idx=0;
+      document.getElementById("default").style.display="block";
+      document.getElementById("success").style.display="none";
   }
 }
